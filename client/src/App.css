@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.conteneur-connexion {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.conteneur-connexion h2 {
+  margin-bottom: 20px;
+}
+
+.conteneur-connexion form div {
+  margin-bottom: 15px;
+}
+
+.conteneur-connexion label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.conteneur-connexion input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.conteneur-connexion button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.conteneur-connexion button:hover {
+  background-color: #0056b3;
+}
+
+.erreur {
+  color: red;
+  margin-bottom: 10px;
+}
